@@ -1,5 +1,4 @@
 # LightsOuts(点灯游戏)
-===================
 [为什么被吸引](https://zhuanlan.zhihu.com/p/21265602)
 
 [游戏百度介绍](http://baike.baidu.com/view/768314.htm)
