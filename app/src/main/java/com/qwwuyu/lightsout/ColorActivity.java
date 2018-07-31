@@ -15,7 +15,7 @@ import com.rarepebble.colorpicker.ValueView;
 
 /**
  * Created by qiwei on 2018/7/9 13:28
- * Description .
+ * Description 选择颜色界面.
  */
 public class ColorActivity extends AppCompatActivity implements ObservableColor.ColorObserver {
     private Intent intent = new Intent();

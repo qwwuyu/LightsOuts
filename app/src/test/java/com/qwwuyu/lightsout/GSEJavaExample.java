@@ -8,7 +8,7 @@ import org.junit.Test;
  */
 public class GSEJavaExample {
     /**
-     * @列主元高斯消去法
+     * 列主元高斯消去法
      */
     static double a[][];
     static double b[];

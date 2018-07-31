@@ -8,7 +8,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
- * LightsOuts 点灯游戏线条
+ * LightsOuts 点灯游戏解题线条
  * Created by qiwei on 2018/7/8.
  */
 public class SolveLineView extends View {

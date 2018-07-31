@@ -6,6 +6,10 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+/**
+ * Created by qiwei on 2018/7/31 16:44
+ * Description 游戏界面.
+ */
 public class GameActivity extends AppCompatActivity implements LightsOutView.GameListener {
     private LightsOutView lightsOutView;
     private LightsOutLineView lightsOutLineView;
@@ -19,6 +23,7 @@ public class GameActivity extends AppCompatActivity implements LightsOutView.Gam
         lightsOutView = findViewById(R.id.v_lights_out);
         lightsOutLineView = findViewById(R.id.v_lights_out_line);
         etSize = findViewById(R.id.et_size);
+        lightsOutView.setSize(5);
         lightsOutView.setGameListener(this);
         etSize.setText(String.valueOf(lightsOutView.getSize()));
     }

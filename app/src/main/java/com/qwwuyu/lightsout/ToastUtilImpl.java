@@ -8,6 +8,7 @@ import android.widget.Toast;
 
 /**
  * Created by qiwei on 2016/12/13
+ * copy过来 避免Toast队列
  */
 public class ToastUtilImpl {
     /** 主线程Handler */

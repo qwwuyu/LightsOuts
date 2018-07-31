@@ -82,6 +82,7 @@
         android:layout_below="@id/ll"
         android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
+        android:text="60"
         android:layout_marginTop="8dp"
         android:inputType="number" />
 
@@ -92,6 +93,7 @@
         android:layout_below="@id/ll"
         android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
+        android:text="0"
         android:layout_marginTop="8dp"
         android:layout_toEndOf="@id/et_size"
         android:layout_toRightOf="@id/et_size"

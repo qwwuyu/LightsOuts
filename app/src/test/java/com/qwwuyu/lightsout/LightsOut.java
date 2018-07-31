@@ -2,6 +2,11 @@ package com.qwwuyu.lightsout;
 
 import org.junit.Test;
 
+/**
+ * Created by qiwei on 2018/7/31 16:59.
+ * Description C++翻译过来的java版,有bug,O(N^3)..
+ * https://github.com/njpipeorgan/LightsOut/tree/master
+ */
 public class LightsOut {
     @Test
     public void test() {

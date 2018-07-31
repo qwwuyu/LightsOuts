@@ -7,10 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.rarepebble.colorpicker.ObservableColor;
-
 /**
  * Created by qiwei on 2018/7/8.
+ * 解题图片界面
  */
 public class SolveActivity extends AppCompatActivity {
     private SolveView solveView;
@@ -27,9 +26,8 @@ public class SolveActivity extends AppCompatActivity {
         solveLineView = findViewById(R.id.v_solve_line);
         numButton = findViewById(R.id.btn_num);
         etSize = findViewById(R.id.et_size);
-        etSize.setText(String.valueOf(solveView.getSize()));
         etPosition = findViewById(R.id.et_position);
-        etPosition.setText("0");
+        solve(null);
     }
 
     public void solve(View view) {

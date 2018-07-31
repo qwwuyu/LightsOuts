@@ -2,6 +2,10 @@ package com.qwwuyu.lightsout;
 
 import org.junit.Test;
 
+/**
+ * Created by qiwei on 2018/7/31 16:59.
+ * Description 未完成,准备解决O(N^3).
+ */
 public class LightsOuts {
     @Test
     public void test() {

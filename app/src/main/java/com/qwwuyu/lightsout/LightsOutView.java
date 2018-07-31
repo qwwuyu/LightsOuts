@@ -17,13 +17,20 @@ import java.nio.IntBuffer;
  */
 public class LightsOutView extends View implements View.OnTouchListener {
     private final Paint gamePaint = new Paint();
+    //未点灯颜色
     private int inColor = 0xff5C90FF;
+    //已点颜色
     private int outColor = 0xffE6AB5E;
+    //像素长度
     private int side;
 
+    /** 已点数量 */
     private int outSize;
+    /** 游戏是否结束 */
     private boolean gameOver = false;
+    /** 边长数量 */
     private int size;
+    /** 图片像素数组BGR */
     private int[] is;
     private Bitmap gameBitmap;
 

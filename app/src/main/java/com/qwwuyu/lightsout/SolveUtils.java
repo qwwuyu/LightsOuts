@@ -2,7 +2,7 @@ package com.qwwuyu.lightsout;
 
 /**
  * Created by qiwei on 2018/7/9 10:39
- * Description .
+ * Description 解题工具,不是最优算法,更多方式看JunitTest.
  */
 public class SolveUtils {
     private int n, n2;

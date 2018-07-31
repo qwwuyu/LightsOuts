@@ -14,7 +14,7 @@ import java.nio.IntBuffer;
 
 /**
  * Created by qiwei on 2018/7/9 9:45
- * Description .
+ * Description 解题控件,类似游戏View.
  */
 public class SolveView extends View {
     private final Paint SolvePaint = new Paint();
