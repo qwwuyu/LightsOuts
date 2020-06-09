@@ -8,4 +8,5 @@
 ##Android项目游戏和优于O(N^6)的解图片生成,O(N^3)待完成.
 
 103的解题图片
-![image](https://github.com/qwwuyu/LightsOuts/blob/master/103-Solver.png)
+
+<img src="https://github.com/qwwuyu/LightsOuts/blob/master/103-Solver.png" width="60%" />
